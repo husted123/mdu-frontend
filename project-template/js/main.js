@@ -13,3 +13,20 @@ document.querySelector("#content").innerHTML = message;
 function showAlert() {
   alert('Open your Developer Console!');
 }
+
+
+let teacher1 = {
+  name = "Birgitte Kirk Iversen",
+  title = "Senior Lecturer",
+  department = "Programmes within Digital Communication and Multimedia",
+  mail =  "bki@baaa.dk",
+  phone = "+4572286316",
+}
+
+let teacher2 = {
+  name = "Rasmus Cederdorff",
+  title = "Lecturer",
+  department = "Programmes within Digital Communication and Multimedia",
+  mail =  "race@baaa.dk",
+  phone = "+4572286318",
+}
