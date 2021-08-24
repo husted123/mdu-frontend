@@ -33,6 +33,19 @@ h3 {
   margin: 0.5em 0 0.2em;
 }
 
+div{max-width: 350px;
+margin-bottom: 50px;}
+
+img{
+  max-width: 250px;
+}
+
+#grid-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 button {
   text-align: center;
   cursor: pointer;
@@ -75,3 +88,4 @@ button {
   max-width: 300px;
   width: 100%;
 }
+
