@@ -26,6 +26,15 @@ h1 {
   font-weight: 300;
   letter-spacing: 3px;
 }
+.familyMemberImg{
+  max-width: 200px;
+}
+
+#family-container article{
+  margin-bottom: 50px;
+
+ 
+}
 
 /* ---------- topbar styling ---------- */
 .topbar {

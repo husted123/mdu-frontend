@@ -1,3 +1,4 @@
+
 let teacher1 = {
   name : "Birgitte Kirk Iversen",
   title : "Senior Lecturer",
@@ -15,7 +16,7 @@ let teacher2 = {
   mail : "race@baaa.dk",
   phone : "+4572286318",
   img : "https://www.eaaa.dk/media/devlvvgj/rasmus-cederdorff.jpg?anchor=center&mode=crop&width=800&height=450&rnd=132301335324630000&format=webp"
-  
+
 }
 
 let teacher3 = {

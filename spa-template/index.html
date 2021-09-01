@@ -14,8 +14,8 @@
 <body onhashchange="pageChange()">
   <!-- tabbar navigation -->
   <nav class="tabbar">
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
+    <a href="#home">Family Members</a>
+    <a href="#about">Add family Member</a>
     <a href="#clients">Clients</a>
     <a href="#contact">Contact</a>
   </nav>
@@ -26,15 +26,25 @@
     <header class="topbar">
       <h2>Home</h2>
     </header>
-    <p>My Single Page Web App Template</p>
+    <p>My Family Members</p>
+    <input onkeyup="searchFunction(this.value)" placeholder="Search for family member" style="margin-bottom: 50px;">
+    <div id="family-container"></div>
   </section>
 
   <!-- about page -->
   <section id="about" class="page">
     <header class="topbar">
-      <h2>About</h2>
+      <h2>Add Family Member</h2>
     </header>
-    <p>This is my about page</p>
+    <p>Fill form to add family member</p>
+    <form>
+      <input type="url" id="img" placeholder="Img url">
+      <input type="text" id="name" placeholder="Type name">
+      <input type="text" id="age" placeholder="Type age">
+      <input type="text" id="relation" placeholder="Type relation">
+  
+      <button type="button" onclick="addFamilyMember()">Add family member to list</button>
+        </form>
   </section>
 
   <!-- clients page -->
@@ -55,6 +65,8 @@
     <a href="http://cederdorff.com" target="_blank">
       <img src="img/logo.png" alt="Cederdorff logo" class="logo">
     </a>
+    <article id="contact-container"></article>
+    <article id="productionist-container"
   </section>
 
   <!-- SPA functionality  -->

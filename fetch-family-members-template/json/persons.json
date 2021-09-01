@@ -1,16 +1,24 @@
 [
   {
-    "name": "Peter Madsen",
-    "age": 52,
-    "hairColor": "blonde",
-    "relation": "dad",
-    "img": "img/dad.jpg"
-  },
-  {
-    "name": "Ane Madsen",
-    "age": 51,
-    "hairColor": "brown",
-    "relation": "mom",
-    "img": "img/ane.jpg"
-  }
+          "name" : "Birgitte Husted",
+          "age": 52,
+          "relation" : "Mom"
+        },
+      
+      {
+          "Name" : "Christian Husted",
+          "age" : 54,
+          "relation" : "Dad"
+        },
+      
+      {
+          "name"  : "Mathias Husted",
+          "age" : 25,
+          "relation" : "Brother"
+        },
+      {
+        "name" : "Jeppe Husted",
+        "age" : 16,
+        "relation" : "Brother"
+      }
 ]
